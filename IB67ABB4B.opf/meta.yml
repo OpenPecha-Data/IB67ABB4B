@@ -3,7 +3,7 @@ ocr_import_info:
   bdrc_scan_id: W3CN7543
   source: bdrc
   ocr_info:
-    timestamp: '2022-08-25T00:00:00Z'
+    timestamp: '2023-02-01T00:00:00Z'
   batch_id: batch-0001
   software_id: norbuketaka
   expected_default_language: bo
@@ -11,8 +11,8 @@ ocr_import_info:
 default_language: bo
 source: https://library.bdrc.io
 initial_creation_type: ocr
-imported: 2023-01-21 16:33:07.809668
-last_modified: 2022-08-25 00:00:00+00:00
+imported: 2024-09-12 14:16:29.015293
+last_modified: 2023-02-01 00:00:00+00:00
 parser: https://github.com/OpenPecha/Norbu-Keta-eText-import/blob/main/norbu_ketaka_parser.py
 source_metadata:
   id: http://purl.bdrc.io/resource/W3CN7543
@@ -23,15 +23,15 @@ source_metadata:
   title: གཏེར་ཆེན་བདུད་ཀློང་ཟུང་གི་གཏེར་བྱོན་སྨིན་བྱེད་ཐམས་ཅད་ཆུ་འབབས་སུ་བཀོད་པ།
   languages:
   - bo
-  author: སྤོ་བོ་གཏེར་སྟོན་བདུད་འདུལ་རྡོ་རྗེ།
+  author: ཀློང་གསལ་སྙིང་པོ།
 bases:
-  I3CN7548:
+  I3CN7545:
     source_metadata:
-      id: http://purl.bdrc.io/resource/I3CN7548
-      total_pages: 563
-      volume_number: 4
+      id: http://purl.bdrc.io/resource/I3CN7545
+      total_pages: 681
+      volume_number: 1
       volume_pages_bdrc_intro: 2
-    base_file: I3CN7548.txt
+    base_file: I3CN7545.txt
     order: 1
   I3CN7547:
     source_metadata:
@@ -41,13 +41,13 @@ bases:
       volume_pages_bdrc_intro: 2
     base_file: I3CN7547.txt
     order: 2
-  I3CN7545:
+  I3CN7548:
     source_metadata:
-      id: http://purl.bdrc.io/resource/I3CN7545
-      total_pages: 681
-      volume_number: 1
+      id: http://purl.bdrc.io/resource/I3CN7548
+      total_pages: 563
+      volume_number: 4
       volume_pages_bdrc_intro: 2
-    base_file: I3CN7545.txt
+    base_file: I3CN7548.txt
     order: 3
 copyright:
   status: Public domain
